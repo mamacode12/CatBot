@@ -1,7 +1,7 @@
 import * as ping from "./ping";
-import * as embed from "./embed";
+import * as announce from "./announce";
 
 export const commands = {
     ping,
-    embed,
+    announce,
 };
