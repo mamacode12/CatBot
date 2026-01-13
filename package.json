@@ -1,0 +1,24 @@
+{
+	"name": "CatBot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"scripts": {
+		"dev": "tsx watch src/bot.ts",
+		"start": "node dist/bot.js",
+		"build": "tsup src/bot.ts --minify"
+	},
+	"dependencies": {
+		"discord.js": "^14.25.1",
+		"dotenv": "^17.2.3",
+		"galactic.ts": "^1.1.0",
+		"tsup": "^8.5.1",
+		"tsx": "^4.21.0"
+	},
+	"devDependencies": {
+		"ts-node": "^10.9.2",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "^5.5.3"
+	},
+	"private": true
+}
